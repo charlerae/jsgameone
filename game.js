@@ -13,11 +13,11 @@ function study() {
 function school() {
     let outcome = luck() + study(); 
     if (outcome <40) {
-        alert ('Flunk Out');
+        alert ('You Flunked Out of School!! You will have to find somehwhere else to live, Grunt!');
     } else if (outcome <70) {
-        alert ('Graduate');
+        alert ('Look At You, Graduate!! Now that you are educated you are an official citizen of Vahnahlah!');
     } else {
-        alert ('Switch Schools');
+        alert ('You are not doing so hot in school. You will have to start over and go to school again, grunt..');
     }
 }
 
